@@ -19,7 +19,8 @@ main{
             justify-content: space-around;
             flex-wrap: wrap;
             img{
-                margin: 1rem;
+                margin: 1rem ;
+                width: 100%;
             }
         }
     }
@@ -46,7 +47,14 @@ main{
             justify-content: space-around;
             flex-wrap: wrap;
             img{
-                margin: 1rem;
+                margin: 1rem 5px;
+                width: 22rem;
+                cursor: pointer;
+                transition: 0.2s all;
+                &:hover{
+                  opacity: 70%;  
+                  transform: scale(1.1);
+                }
             }
         }
     }
@@ -55,7 +63,7 @@ main{
 @media (min-width: 768px){
     main{
         .videos{
-            padding: 4rem 11rem;
+            padding: 4rem 6rem;
             background-color: $color-code-partner-fondo2;
             h2{
                 color: $color-blanco;
@@ -73,7 +81,50 @@ main{
                 justify-content: space-around;
                 flex-wrap: wrap;
                 img{
-                    margin: 1rem;
+                    margin: 1rem 5px;
+                    width: 22rem;
+                    cursor: pointer;
+                    transition: 0.2s all;
+                    &:hover{
+                      opacity: 70%;  
+                      transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px){
+    main{
+        .bg2{
+            padding: 4rem 6rem;
+
+            background-color: $color-code-partner-fondo !important;
+            h2{
+                color: $color-blanco;
+                font-size: 1.4rem;
+                line-height: 25px;
+            }
+            p{
+                line-height: 20px;
+                margin: 1rem 0;
+                color:  #E5E5E5;
+                text-decoration: underline;
+            }
+            .contenedor_videos{
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                img{
+                    margin: 1rem 5px;
+                    width: 22rem;
+                    cursor: pointer;
+                    transition: 0.2s all;
+                    &:hover{
+                      opacity: 70%;  
+                      transform: scale(1.1);
+                    }
                 }
             }
         }
@@ -104,7 +155,10 @@ main{
         }
         .caja_video{
             margin: 0 2rem;
-
+            video{
+                border-radius: 15px;
+                width: 100%;
+            }
         }
         .extra_videos{
             div{
