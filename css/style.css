@@ -1015,6 +1015,49 @@ main .preguntas .caja_video .documento {
     width: 4rem;
   }
 }
+main .empresas {
+  padding: 2rem;
+  background-color: #1C1C1C;
+}
+main .empresas h1 {
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  text-align: center;
+}
+main .empresas div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .empresas div img {
+  width: 15rem;
+  margin: 2rem;
+}
+main .empresas h2 {
+  color: #848484;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  main .empresas {
+    background-color: #1C1C1C;
+  }
+  main .empresas h1 {
+    font-size: 1.4rem;
+  }
+  main .empresas div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  main .empresas div img {
+    margin: 2rem;
+    width: 15rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;
