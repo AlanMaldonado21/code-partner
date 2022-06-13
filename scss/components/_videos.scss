@@ -130,6 +130,40 @@ main{
                     color: $color-code-partner;
                     font-weight: bold;
                 }
+            }     
+        }
+    }
+    .preguntas{
+        background-color: $color-code-partner-fondo;
+        div{
+            text-align: center;
+            input{
+                background-color: #E5E5E5;
+                border: 0px;
+                padding:20px;
+                text-align: s;
+            }
+            button{
+                background-color: $color-code-partner;
+                border: 0px;
+                padding: 20px;
+            }
+        }
+        .cj-flex{
+            display: flex;
+            padding: 1rem 3rem ;
+        }
+        .caja_video{
+            padding: auto;
+            display: flex;
+            align-items: center;
+            h3{
+                margin: 0 15px ;
+                color: $color-blanco;
+                
+            }
+            .documento{
+                width: 4rem;
             }
         }
     }
@@ -186,7 +220,39 @@ main{
             }
         }
         .preguntas{
-            
+            background-color: $color-code-partner-fondo;
+            div{
+                text-align: center;
+                input{
+                    background-color: #E5E5E5;
+                    border: 0px;
+                    padding: 20px 20rem ;
+                    text-align: s;
+                }
+                button{
+                    background-color: $color-code-partner;
+                    border: 0px;
+                    padding: 20px;
+                }
+            }
+            .cj-flex{
+            display: flex;
+            justify-content: center;
+            padding: 1rem 3rem ;
+        }
+        .caja_video{
+            padding: auto;
+            display: flex;
+            align-items: center;
+            h3{
+                margin: 0 15px ;
+                color: $color-blanco;
+                
+            }
+            .documento{
+                width: 4rem;
+            }
+        }
         }
     }
 }
