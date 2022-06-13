@@ -1,0 +1,132 @@
+main{
+    .nosotros{
+        
+        background-color: $color-code-partner-fondo;
+        padding: 2rem 5rem;
+        
+        .contenedor_nosotros{
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            background-color: $color-code-partner;
+            .mini_nosotros{
+                margin: 1rem 0;
+                h2{
+                    font-weight: bold;
+                    margin: .8rem 0;
+                }
+                p{
+                    width: 13rem;
+                }
+            }
+        }
+    }
+}
+
+//Medias querys
+
+@media (min-width: 768px){
+main{
+    .nosotros{
+        background-color: $color-code-partner-fondo2;
+        padding: 2rem 5rem;
+        
+        .contenedor_nosotros{
+            display: flex;
+            flex-direction: row;
+            padding: 2rem;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: $color-code-partner;
+            .mini_nosotros{
+                margin: 1rem 0;
+                h2{
+                    font-weight: bold;
+                    margin: .8rem 0;
+                }
+                p{
+                    width: 13rem;
+                }
+            }
+        }
+    }
+}
+
+}
+
+// Seccion nosotros
+
+.nosotros{
+    h1{
+        color: $color-blanco;
+        font-size: 1.4rem;
+        text-align: center;
+        span{
+            color: $color-code-partner;
+            font-size: 1.4rem;
+        }
+    }
+    p{
+        text-align: center;
+        margin: 1rem 0;
+        color: #E5E5E5;
+    }
+    div{
+        .cards-nosotros{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            img{
+                width: 10rem;
+            }
+            h2{
+                margin-top: 10px;
+                color: $color-blanco;
+            }
+            p{
+                color: #E5E5E5;
+            }
+        }
+    }
+}
+@media (min-width: 768px){
+    h1{
+        color: $color-blanco;
+        font-size: 2rem !important;
+        text-align: center;
+        span{
+            color: $color-code-partner;
+            font-size: 2rem !important;
+        }
+    }
+    .nombres{
+        font-size: 1rem;
+        text-align: center;
+        margin: 1rem 0;
+        color: #E5E5E5;
+    }
+    .div_nosotros{
+        display: flex;
+        justify-content: space-around;
+
+        .cards-nosotros{
+            margin: 3rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            img{
+                width: 10rem;
+            }
+            h2{
+                margin-top: 10px;
+                color: $color-blanco;
+            }
+            p{
+                color: #E5E5E5;
+            }
+        }
+    }
+
+}
