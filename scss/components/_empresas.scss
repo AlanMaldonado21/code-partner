@@ -18,9 +18,10 @@ main{
             }
         }
         h2{ 
-            
+
             color: $color-gris;
             font-size: 1.4rem;
+            font-weight: 300;
             text-align: center;
         }
     }
@@ -44,6 +45,14 @@ main{
                 img{
                     margin: 2rem;
                     width: 15rem;
+                }
+
+                h2{ 
+
+                    color: $color-gris;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    text-align: center;
                 }
             }
         }

@@ -356,6 +356,106 @@ main .nosotros .contenedor_nosotros .mini_nosotros p {
     color: #E5E5E5;
   }
 }
+main .comunidad {
+  padding: 2rem;
+  background-color: #1C1C1C;
+}
+main .comunidad h1 {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  letter-spacing: 0.1px;
+  font-style: italic;
+}
+main .comunidad .equipo {
+  text-align: center;
+  margin: 1rem 0;
+}
+main .comunidad .equipo img {
+  border-radius: 5px;
+  width: 100%;
+}
+main .comunidad h2 {
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+main .comunidad p {
+  margin: 1rem 0;
+  color: #848484;
+  font-weight: 500;
+}
+main .comunidad .cultura {
+  font-family: Cabin;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  font-style: italic;
+  margin: 1rem 8rem;
+}
+main .comunidad h4 {
+  color: #06BADA;
+  font-size: 1.2rem;
+  font-style: oblique;
+}
+main .comunidad .imagenes {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+main .comunidad .imagenes img {
+  margin: 2rem;
+  width: 10rem;
+}
+
+@media (min-width: 768px) {
+  main .comunidad {
+    background-color: #1C1C1C;
+  }
+  main .comunidad h1 {
+    letter-spacing: 0.1px;
+    font-style: italic;
+  }
+  main .comunidad .equipo {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  main .comunidad .equipo img {
+    border-radius: 5px;
+    width: 80%;
+  }
+  main .comunidad h2 {
+    font-family: Cabin;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin: 1rem 8rem;
+  }
+  main .comunidad p {
+    font-family: Cabin;
+    line-height: 20px;
+    margin: 1rem 8rem;
+    color: #848484;
+    font-weight: 400;
+  }
+  main .comunidad .cultura {
+    font-family: Cabin;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin: 1rem 8rem;
+  }
+  main .comunidad h4 {
+    color: #06BADA;
+    font-size: 1.4rem;
+    font-style: oblique;
+  }
+  main .comunidad .imagenes {
+    display: flex;
+  }
+  main .comunidad .imagenes img {
+    width: 20rem;
+  }
+}
 main .experiencia {
   padding: 2rem;
   background-color: #1C1C1C;
@@ -1037,6 +1137,7 @@ main .empresas div img {
 main .empresas h2 {
   color: #848484;
   font-size: 1.4rem;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -1056,6 +1157,12 @@ main .empresas h2 {
   main .empresas div img {
     margin: 2rem;
     width: 15rem;
+  }
+  main .empresas div h2 {
+    color: #848484;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
   }
 }
 * {
