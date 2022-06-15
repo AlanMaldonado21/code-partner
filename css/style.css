@@ -251,7 +251,7 @@ main .nosotros .contenedor_nosotros {
   background-color: #06BADA;
 }
 main .nosotros .contenedor_nosotros .mini_nosotros {
-  margin: 1rem 0;
+  margin: 1rem;
 }
 main .nosotros .contenedor_nosotros .mini_nosotros h2 {
   font-weight: bold;
